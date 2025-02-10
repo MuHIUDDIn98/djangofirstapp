@@ -1,0 +1,53 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Environment variables and secret keys
+.env
+*.env
+*.secrets
+
+# Django-specific files
+db.sqlite3  # Ignore SQLite database files
+media/  # Ignore uploaded media files
+staticfiles/  # Ignore Django static files (if collected separately)
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker-related ignores (if using Docker)
+docker-compose.override.yml
+
+# Celery beat schedule file (if using Celery)
+celerybeat-schedule
