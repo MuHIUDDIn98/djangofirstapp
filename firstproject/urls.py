@@ -21,4 +21,5 @@ from firstapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('hello/',views.display),
+    path('date/',views.date_time),
 ]
